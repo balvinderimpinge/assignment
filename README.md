@@ -28,4 +28,3 @@ cd <repository-name>
 docker-compose build
 docker-compose up -d
 Open your browser and navigate to: http://localhost:8080
-Make sure you have installed a web server on your host machine if required for additional services or configurations.
