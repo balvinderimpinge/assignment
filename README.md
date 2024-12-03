@@ -3,10 +3,11 @@
 This project demonstrates a PHP application connected to a MySQL database using Docker Compose. It includes a simple Docker Compose setup for development and deployment.
 
 ## Project Structure
-
-├── Dockerfile # Dockerfile for the PHP container ├── docker-compose.yml # Docker Compose configuration ├── db.php # Database connection class ├── db-dump.sql # Initial MySQL database dump ├── .gitignore # Git ignored files └── README.md # Documentation
-
-
+├── Dockerfile          # Dockerfile for the PHP container
+├── docker-compose.yml  # Docker Compose configuration
+├── db.php              # Database connection class
+├── db-dump.sql         # Initial MySQL database dump
+└── README.md           # Documentation
 
 ## Prerequisites
 
@@ -26,4 +27,5 @@ cd <repository-name>
 
 docker-compose build
 docker-compose up -d
-Open your browser and navigate to: http://localhost:80
+Open your browser and navigate to: http://localhost:8080
+Make sure you have installed a web server on your host machine if required for additional services or configurations.
